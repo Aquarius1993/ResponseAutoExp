@@ -1,0 +1,1 @@
+!function(o){var t=o.module("aboutC",["ngRoute"]);t.config(["$routeProvider",function(o){o.when("/about",{templateUrl:"about/view.html",controller:"aboutCtl"})}]),t.controller("aboutCtl",["$scope",function(o){}])}(angular);

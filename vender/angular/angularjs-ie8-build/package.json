@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      "angularjs-ie8-build@1.4.7",
+      "D:\\lhy\\work\\angularjs"
+    ]
+  ],
+  "_cnpm_publish_time": 1445705035945,
+  "_from": "angularjs-ie8-build@1.4.7",
+  "_id": "angularjs-ie8-build@1.4.7",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/angularjs-ie8-build",
+  "_npmUser": {
+    "email": "fergal_doyle@yahoo.com",
+    "name": "fergaldoyle"
+  },
+  "_npmVersion": "1.4.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "angularjs-ie8-build",
+    "raw": "angularjs-ie8-build@1.4.7",
+    "rawSpec": "1.4.7",
+    "scope": null,
+    "spec": "1.4.7",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/angularjs-ie8-build/download/angularjs-ie8-build-1.4.7.tgz",
+  "_shasum": "d74edbbade485095600484ba9b26a1409adc3945",
+  "_shrinkwrap": null,
+  "_spec": "angularjs-ie8-build@1.4.7",
+  "_where": "D:\\lhy\\work\\angularjs",
+  "author": {
+    "name": "Fergal Doyle"
+  },
+  "bugs": {
+    "url": "https://github.com/fergaldoyle/angular.js/issues"
+  },
+  "dependencies": {},
+  "description": "A build of AngularJS 1.4 with polyfils and some changes to bring back IE8 compatibilty",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "noattachment": false,
+    "shasum": "d74edbbade485095600484ba9b26a1409adc3945",
+    "size": 460916,
+    "tarball": "http://registry.npm.taobao.org/angularjs-ie8-build/download/angularjs-ie8-build-1.4.7.tgz"
+  },
+  "homepage": "https://github.com/fergaldoyle/angular.js-ie8-builds",
+  "keywords": [
+    "angular",
+    "angular 1.3",
+    "angular 1.3 ie8",
+    "angular 1.4",
+    "angular 1.4 ie8",
+    "ie8"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "fergal_doyle@yahoo.com",
+      "name": "fergaldoyle"
+    }
+  ],
+  "name": "angularjs-ie8-build",
+  "optionalDependencies": {},
+  "publish_time": 1445705035945,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fergaldoyle/angular.js-ie8-builds.git"
+  },
+  "version": "1.4.7"
+}

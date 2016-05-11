@@ -1,0 +1,1 @@
+!function(o){var e=o.module("videoC",["ngRoute"]);e.config(["$routeProvider",function(o){o.when("/video",{templateUrl:"video/view.html",controller:"videoCtl"})}]),e.controller("videoCtl",["$scope",function(o){}])}(angular);

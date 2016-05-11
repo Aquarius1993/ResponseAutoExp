@@ -1,0 +1,1 @@
+!function(t){t.module("autoFocusC",[]).directive("autoFocus",["$location",function(t){t.path();return{redirect:"A",link:function(a,c){a.$location=t,a.$watch("$location.path()",function(t){var a=c.children().attr("href"),n=a.replace(/#(\/.+?)/,"$1");t.startsWith(n)&&(c.parent().children().removeClass("active"),c.addClass("active"))})}}}])}(angular);

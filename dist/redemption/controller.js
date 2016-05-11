@@ -1,0 +1,1 @@
+!function(e){var o=e.module("redemptionC",["ngRoute"]);o.config(["$routeProvider",function(e){e.when("/redemption",{templateUrl:"redemption/view.html",controller:"redemptionCtl"})}]),o.controller("redemptionCtl",["$scope",function(e){}])}(angular);

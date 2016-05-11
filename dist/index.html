@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-cn" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" >
+    <title>这是一个案例研究网站的响应与HTML5和CSS3网页设计</title>
+    <!--icon-->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="../vender/jquery-1.10.2.js"></script>
+    <script src="../vender/modernizr.js"></script>
+    <script src="../vender/prefixfree.min.js"></script>
+    <script src="js/conditional.js"></script>
+    <script src="../vender/jquery.fitvids.js"></script>
+    <!--[if IE 8]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.0.5/es5-shim.min.js"></script>
+
+    <style>
+        .ng-hide {
+            display: none !important;
+        }
+    </style>
+    <![endif]-->
+
+</head>
+<body id="home">
+    <div id="wrapper">
+        <header role="banner" class="group">
+            <a href="#/">
+                <div id="logo">
+                    HTML5 And <span>CSS3</span>
+                </div>
+            </a>
+            <nav role="navigation">
+                <ul id="mainNav">
+                    <li auto-focus><a href="#/index">Why?</a></li>
+                    <li auto-focus><a href="#/about">About</a></li>
+                    <li auto-focus><a href="#/offline">Offline</a></li>
+                    <li auto-focus><a href="#/redemption">Redemption</a></li>
+                    <li auto-focus><a href="#/video">Videos/clips</a></li>
+                    <li auto-focus><a href="#/quiz">Quiz</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="content" role="main" ng-view></div>
+        <aside>
+            <section role="complementary">
+                <div class="sideBlock unSung">
+                    <h1>animation...</h1>
+                    <a href="#/"><img src="img/xiaoxi.jpeg" alt="Midnight Run" /><span class="moreInfo">more info</span></a>
+                    <a href="#/"><img class="sideImage" src="img/xiaoxi3.jpeg" alt="Wyatt Earp" /><span class="moreInfo">more info</span></a>
+                </div>
+            </section>
+            <section role="complementary">
+                <div class="sideBlock overHyped">
+                    <h1>box-shadow...</h1>
+                    <a href="#/"><img src="img/timg.jpg" alt="Moulin Rouge" /><span class="moreInfo">more info</span></a>
+                    <a href="#/"><img class="sideImage" src="img/xiaoxi%20(2).jpeg" alt="King Kong" /><span class="moreInfo">more info</span></a>
+                </div>
+            </section>
+        </aside>
+        <!-- the footer -->
+        <footer role="contentinfo">
+            <p>我是footer我是footer</p>
+        </footer>
+    </div>
+    <script src="../vender/angular/angularjs-ie8-build/dist/angular.js"></script>
+    <script src="../vender/angular/angular-route/angular-route.js"></script>
+    <script src="js/auto-focus.js"></script>
+    <script src="js/index.js"></script>
+    <script src="index/controller.js"></script>
+    <script src="3Dquiz/controller.js"></script>
+    <script src="about/controller.js"></script>
+    <script src="offline/controller.js"></script>
+    <script src="redemption/controller.js"></script>
+    <script src="video/controller.js"></script>
+
+</body>
+</html>

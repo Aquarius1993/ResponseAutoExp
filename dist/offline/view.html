@@ -1,0 +1,17 @@
+<h1>HTML5 <em>离线WEB应用程序</em></h1>
+<p>以.manifest文件类型的文件</p>
+
+   <p>CACHE MANIFEST</p>
+   <p>#v1     必须以CACHE MANIFEST开头    这句是注释</p>
+
+   <p># CACHE:   列举了所有离线使用所需的文件  相对路径</p>
+   <p>CACHE:</p>
+   <p>test.html</p>
+   <p>css/main.css</p>
+   <p>adaptiveImgs/wxdy.png</p>
+   <p># NETWORK: 列举了所有不需离线使用的文件  相对路径</p>
+   <p>NETWORK:</p>
+   <p>*</p>
+   <p>#FALLBACK:  作用是 访问每个页面时都会问“缓存中有这个页面吗？”如果有则显示缓存页面，如果没有则显示指定的文件</p>
+   <p>FALLBACK:</p>
+   <p>//instructions.htm</p>

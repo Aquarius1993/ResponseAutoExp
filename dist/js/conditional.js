@@ -1,0 +1,1 @@
+Modernizr.load([{test:Modernizr.mq("only all"),nope:"js/respond.min.js"},{test:Modernizr.mq("only screen and (max-width: 600px)"),yep:"js/jquery.mobilemenu.js",callback:function(){$(document).ready(function(){$("#mainNav").mobileMenu({switchWidth:600,topOptionText:"Select a page",indentString:"&nbsp;&nbsp;&nbsp;"})})}}]);

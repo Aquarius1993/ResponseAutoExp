@@ -1,0 +1,1 @@
+!function(o){var n=o.module("offlineC",["ngRoute"]);n.config(["$routeProvider",function(o){o.when("/offline",{templateUrl:"offline/view.html",controller:"offlineCtl"})}]),n.controller("offlineCtl",["$scope",function(o){}])}(angular);

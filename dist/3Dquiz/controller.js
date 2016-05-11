@@ -1,0 +1,1 @@
+!function(o){var n=o.module("quizC",["ngRoute"]);n.config(["$routeProvider",function(o){o.when("/quiz",{templateUrl:"3Dquiz/view.html",controller:"quizCtl"})}]),n.controller("quizCtl",["$scope",function(o){}])}(angular);

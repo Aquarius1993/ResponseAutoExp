@@ -1,0 +1,14 @@
+<h1>HTML5 <em>视频元素</em></h1>
+<p>HTML5视频使用 &lt;video&gt;标记可以插入。但是iframe嵌入视频的响应得不到解决。</p>
+
+<p>这里我们使用<a href="https://github.com/davatron5000/FitVids.js">FitVids jQuery plugin</a> 使iframe视频内容能够在响应网页设计工作</p>
+<br />
+<div id='vidoe'>
+    <iframe  src="http://www.youtube.com/embed/B1_N28DA3gY?rel=0" width="960" height="720"  frameborder="0" allowfullscreen> </iframe>
+</div>
+</div>
+<script>
+    $(document).ready(function () {
+        $('#vidoe').fitVids()
+    });
+</script>
